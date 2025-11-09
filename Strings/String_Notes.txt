@@ -1,0 +1,51 @@
+String  Notes
+=============
+
+Built In Functions
+
+String s = "abcdef";
+1. s.indexOf('a');  // 0
+   s.indexOf('h');  // -1
+   s.indexOf("cde"); //2
+2. s.lastIndexOf('a');	//0
+   s.lastIndexOf("bcd");//1
+   s.lastIndexOf("bc d");//-1
+3. "saiPrasad".toLowerCase();
+4. "saiPrasad".toUpperCase();
+5. "Sai".contains('a');	//wrong
+   "sai".contains("ai"); //true
+6. "sai".startsWith('s'); //Wrong
+   "sai".startsWith("ai");//false
+7. "sai".endsWith("ai"); //true
+8. "sai".concat("prasad");
+9. "Abc".compareTo("abc"); //-32
+   "abc".compareTo("abc"); //0
+   "abc".compareTo("Abc"); //32
+10.Long.toString(l); 
+   Integer.toString(x);
+11.Integer.parseInt(str);
+
+
+
+
+
+
+
+
+
+Notes:
+Strings are immutable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

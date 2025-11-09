@@ -10,7 +10,6 @@ for(String ele: str)
 {
  s+=ele.toLowerCase();
 }
-System.out.println(s);
         int[] ch = new int[26];
         for(int i=0;i<s.length();i++){
             int idx = (int)(s.charAt(i)-97);
